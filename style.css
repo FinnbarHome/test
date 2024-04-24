@@ -1,0 +1,159 @@
+*{
+  padding:0;
+  margin:0;
+  font-family: 'Slabo 27px', serif;
+}
+
+p{
+  font-size:20px;
+}
+
+/********************************************/
+/*                HEADER ITEMS              */
+/********************************************/
+
+header{
+  padding-top: 10px;
+  padding-bottom: 145px;
+  width: 100%;
+  background-color: #ABABAB;
+  color:red;
+  height:140px;
+  position: -webkit-sticky; /* Safari */  /*********************/
+  position: sticky;
+}
+
+#leftHeader{
+  padding-left:20px;
+  position: static;
+  float: left;
+  background-color: #ABABAB;
+  width: 30%;
+  height:140px;
+}
+
+#middleHeader{
+  position: static;
+  float: left;
+  background-color: #ABABAB;
+  width: 55%;
+  height:140px;
+  text-align: right;
+  vertical-align: middle;       /***********************/
+}
+
+#rightHeader{
+  position: static;
+  float: left;
+  background-color: #ABABAB;
+  width: 15%;
+  height:140px;
+}
+
+.menuText {
+  color: white;
+  text-decoration: none;
+}
+
+.menuText:hover{
+  color:orange;
+}
+
+#menu{
+  color: white;
+  font: 25px Arial, sans-serif;
+}
+
+
+
+/********************************************/
+/*                BODY ITEMS                */
+/********************************************/
+
+body{
+  width: 100%;
+}
+
+#LeftSpace{
+  position: static;
+  float: left;
+  background-color: white;
+  width: 15%;
+  margin-right:-30px;
+  align-content: stretch;
+}
+
+#MainContent{
+  padding-top:20px;
+  margin-left:30px;
+  margin-right:30px;
+  position: static;
+  float: left;
+  background-color: white;
+  width: 70%;
+}
+
+#RightSpace{
+  position: static;
+  float: left;
+  background-color: white;
+  width: 15%;
+  margin-left:-30px;
+}
+
+
+.name{
+  background-color: #8595E5;
+  color: white;
+  font-size: 40px;
+}
+
+
+
+/********************************************/
+/*                TABLES                    */
+/********************************************/
+
+
+table, th, td {
+  border: 1px solid;
+  padding:10px;
+}
+
+#layout{
+  border:none;
+}
+
+
+/********************************************/
+/*                BUTTONS                   */
+/********************************************/
+
+.button {
+  background-color: orange;
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+}
+
+.button:hover{
+  text-decoration: none;
+}
+
+
+
+
+/********************************************/
+/*                FOOTER ITEMS                */
+/********************************************/
+
+
+footer{
+  position:static;
+  float:left;
+  width:100%;
+  text-align: center;
+  background:orange;
+  padding-top:10px;
+  padding-bottom:10px;
+}
